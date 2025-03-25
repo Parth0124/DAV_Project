@@ -7,5 +7,6 @@ pymongo
 seaborn
 scikit-learn
 certifi
+pymongo
 
 # -e .
