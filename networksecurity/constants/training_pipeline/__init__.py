@@ -6,7 +6,7 @@ import pandas as pd
 TARGET_COLUM="RESULT"
 PIPELINE_NAME="NetworkSecurity"
 ARTIFACT_DIR:str="Artifacts"
-FILE_NAME:str="NeetworkData.csv"
+FILE_NAME:str="NetworkData.csv"
 
 TRAIN_FILE_NAME:str="train.csv"
 TEST_FILE_NAME:str="test.csv"
