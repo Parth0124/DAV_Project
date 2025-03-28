@@ -12,5 +12,7 @@ pyaml
 pickle
 mlflow
 dagshub
+uvicorn
+fastapi
 
 # -e .
