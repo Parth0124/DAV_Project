@@ -10,5 +10,7 @@ certifi
 pymongo
 pyaml
 pickle
+mlflow
+dagshub
 
 # -e .
