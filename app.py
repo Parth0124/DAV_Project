@@ -21,7 +21,7 @@ from networksecurity.constants.training_pipeline import DATA_INGESTION_DATABASE_
 
 ca = certifi.where()
 load_dotenv()
-mongo_db_url = os.getenv("MONGODB_URL_KEY")
+mongo_db_url = os.getenv("MONGODB_URL")
 print(mongo_db_url)
 client = pymongo.MongoClient(mongo_db_url, tlsCAFile=ca)
 
